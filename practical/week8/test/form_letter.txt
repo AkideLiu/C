@@ -1,0 +1,38 @@
+Case 1
+
+what is your name ?
+akide
+How old are you ?
+1
+What your Full-time employment fraction ? [0.0 1.0]
+0.8
+Your name is akide, you are 1 years old and your employment fraction is 0.8
+Process finished with exit code 0
+
+Case 2
+
+what is your name ?
+Mike
+How old are you ?
+10
+What your Full-time employment fraction ? [0.0 1.0]
+0.1
+Your name is Mike, you are 10 years old and your employment fraction is 0.1
+Process finished with exit code 0
+
+Case 3
+
+what is your name ?
+Akide Liu
+How old are you ?
+16
+What your Full-time employment fraction ? [0.0 1.0]
+1.1
+What your Full-time employment fraction ? [0.0 1.0]
+1.9
+What your Full-time employment fraction ? [0.0 1.0]
+-9
+What your Full-time employment fraction ? [0.0 1.0]
+0.8
+Your name is Akide, you are 16 years old and your employment fraction is 0.8
+Process finished with exit code 0

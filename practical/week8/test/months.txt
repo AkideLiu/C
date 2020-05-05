@@ -1,0 +1,26 @@
+case 1
+
+Please enter a number instead of months [1 - 12]
+1
+Jan
+
+Process finished with exit code 0
+
+case 2
+
+Please enter a number instead of months [1 - 12]
+50
+Please enter a number instead of months [1 - 12]
+8
+Aug
+
+Process finished with exit code 0
+
+
+case 3
+
+Please enter a number instead of months [1 - 12]
+12
+Dec
+
+Process finished with exit code 0

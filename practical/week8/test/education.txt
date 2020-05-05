@@ -1,0 +1,30 @@
+case 1
+
+Enter the number of year that you has spent in education
+7
+You have spent 7 years in education, you are currently in Primary level education
+Process finished with exit code 0
+
+case 2
+
+Enter the number of year that you has spent in education
+16
+You have spent 16 years in education, you are currently in Tertiary level education
+Process finished with exit code 0
+
+
+case 3
+
+Enter the number of year that you has spent in education
+2
+You have spent 2 years in education, you are currently in Primary level education
+Process finished with exit code 0
+
+case 4
+
+Enter the number of year that you has spent in education
+-6
+Enter the number of year that you has spent in education
+5.5
+You have spent 5 years in education, you are currently in Primary level education
+Process finished with exit code 0

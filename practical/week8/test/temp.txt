@@ -1,0 +1,19 @@
+input   output
+0       0 degrees Celsius is 32 Fahrenheit
+-40     -40 degrees Celsius is -40 degrees Fahrenheight
+
+
+please enter temperature in unit of degrees Celsius: 0
+0 degrees Celsius is 32 Fahrenheit
+Process finished with exit code 0
+
+
+
+please enter temperature in unit of degrees Celsius: -40
+-40 degrees Celsius is -40 Fahrenheit
+Process finished with exit code 0
+
+
+please enter temperature in unit of degrees Celsius: 2
+2 degrees Celsius is 35 Fahrenheit
+Process finished with exit code 0
