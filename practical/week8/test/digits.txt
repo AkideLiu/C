@@ -1,0 +1,21 @@
+Enter enter three digit integer :
+384
+4
+8
+3
+
+
+Enter enter three digit integer :
+987
+7
+8
+9
+
+
+Enter enter three digit integer :
+482
+2
+8
+4
+
+Process finished with exit code 0

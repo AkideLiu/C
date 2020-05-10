@@ -27,7 +27,7 @@ int main(){
     ones = (int)inputInt % 10;
 
     //output
-    printf("%d \n%d \n%d \n", hundred, tens, ones);
+    printf("%d \n%d \n%d \n", ones, tens, hundred );
 
     return 0;
 
