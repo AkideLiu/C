@@ -16,8 +16,8 @@ int main(){
     scanf("%d", &temp);
 
     //calculate temperature in Fahrenheit
-    int fTemp = (temp * 9) / 5 + 32 ;
-    printf("%d degrees Celsius is %d Fahrenheit", temp, fTemp);
+    double fTemp = ((double)temp * 9) / 5 + 32 ;
+    printf("%d degrees Celsius is %.2lf Fahrenheit", temp, fTemp);
 
     return 0;
 

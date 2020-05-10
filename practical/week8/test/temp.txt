@@ -14,6 +14,6 @@ please enter temperature in unit of degrees Celsius: -40
 Process finished with exit code 0
 
 
-please enter temperature in unit of degrees Celsius: 2
-2 degrees Celsius is 35 Fahrenheit
+please enter temperature in unit of degrees Celsius: -41
+-41 degrees Celsius is -41.80 Fahrenheit
 Process finished with exit code 0
