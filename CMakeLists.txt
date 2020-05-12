@@ -23,5 +23,14 @@ set(CMAKE_C_STANDARD 99)
 #add_executable(Q1 "Mastery Quiz /week8/Q1.c")
 #add_executable(Q2 "Mastery Quiz /week8/Q2.c")
 #add_executable(Q3 "Mastery Quiz /week8/Q3.c")
-add_executable(testSize "SelfLearning/week 8/testSize.c")
-add_executable(split "SelfLearning/week 8/split.c")
+
+#lecture week 9
+#add_executable(testSize "SelfLearning/week 9/testSize.c")
+#add_executable(split "SelfLearning/week 9/split.c")
+
+#workshop week 9
+
+add_executable(peaks workshop/week9/peaks.c)
+add_executable(split workshop/week9/split.c)
+add_executable(split1 workshop/week9/split1.c)
+add_executable(sumdiffs workshop/week9/sumdiffs.c)
