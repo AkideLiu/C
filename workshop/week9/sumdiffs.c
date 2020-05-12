@@ -14,7 +14,7 @@ int main(){
     // int positions[10] = {1,2,3};
     int positions[10] = {7,8,2,3};
 
-    int sumdiffs[10];
+    int sumdiffs[10] = {};
     int sumdiffs_index = 0 ;
     int running_sum = 0;
 
