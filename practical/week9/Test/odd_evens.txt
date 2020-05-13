@@ -1,0 +1,38 @@
+case 1
+
+expect:
+    nums                         odds               outputs
+    11 3 9 7 6 10 13 17 2 8 3    11 3 9 7 13 17 3   6 10 2 8
+
+actual:
+    original array contains : 11 3 9 7 6 10 13 17 2 8 3
+    Evens array contains : 6 10 2 8
+    Odds array contains : 11 3 9 7 13 17 3
+    Process finished with exit code 0
+
+
+
+case 2
+
+expect:
+    nums                         odds               outputs
+    11 13 19 17 16 10 13 17 12 18 13    11 13 19 17 13 17 13   16 10 12 18
+
+actual:
+    original array contains : 11 13 19 17 16 10 13 17 12 18 13
+    Evens array contains : 16 10 12 18
+    Odds array contains : 11 13 19 17 13 17 13
+    Process finished with exit code 0
+
+
+case 3
+
+expect:
+    nums                         odds               outputs
+    21 23 29 27 26 20 23 27 22 28 23    21 23 29 27 23 27 23   26 20 22 28
+
+actual:
+    original array contains : 21 23 29 27 26 20 23 27 22 28 23
+    Evens array contains : 26 20 22 28
+    Odds array contains : 21 23 29 27 23 27 23
+    Process finished with exit code 0

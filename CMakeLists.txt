@@ -36,9 +36,17 @@ set(CMAKE_C_STANDARD 99)
 #add_executable(sumdiffs workshop/week9/sumdiffs.c)
 
 #mastery quiz week 9
-add_executable(q1 "Mastery Quiz /week9/q1.c")
-add_executable(q2 "Mastery Quiz /week9/q2.c")
-add_executable(q3 "Mastery Quiz /week9/q3.c")
-add_executable(q4 "Mastery Quiz /week9/q4.c")
-add_executable(q5 "Mastery Quiz /week9/q5.c")
-add_executable(q6 "Mastery Quiz /week9/q6.c")
+#add_executable(q1 "Mastery Quiz /week9/q1.c")
+#add_executable(q2 "Mastery Quiz /week9/q2.c")
+#add_executable(q3 "Mastery Quiz /week9/q3.c")
+#add_executable(q4 "Mastery Quiz /week9/q4.c")
+#add_executable(q5 "Mastery Quiz /week9/q5.c")
+#add_executable(q6 "Mastery Quiz /week9/q6.c")
+
+#practical week 9
+
+add_executable(odd_evens practical/week9/odd_evens.c)
+add_executable(process_ages practical/week9/process_ages.c)
+add_executable(to_uppercase practical/week9/to_uppercase.c)
+add_executable(to_uppercase2 practical/week9/to_uppercase2.c)
+add_executable(reverse_in_place practical/week9/reverse_in_place.c)

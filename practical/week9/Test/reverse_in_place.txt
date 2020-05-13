@@ -1,0 +1,49 @@
+case 1
+
+expect:
+    input         output
+    Tree          eerT
+
+actual:
+    Enter some words :
+    Tree
+    ReversArray: eerT
+    Process finished with exit code 0
+
+case 1
+
+expect:
+    input         output
+    goodDay       yaDdoog
+
+
+actual:
+    Enter some words :
+    goodDay
+    ReversArray: yaDdoog
+    Process finished with exit code 0
+
+case 1
+
+expect:
+    input                                      output
+    Akide,Liu                               uiL,edikA
+
+actual:
+    Enter some words :
+    Akide,Liu
+    ReversArray: uiL,edikA
+    Process finished with exit code 0
+
+case 1
+
+expect:
+    input                                      output
+    @VMware1!                               !1erawMV@
+
+actual:
+    Enter some words :
+    @VMware1!
+    ReversArray: !1erawMV@
+    Process finished with exit code 0
+

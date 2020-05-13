@@ -1,0 +1,49 @@
+case 1
+
+expect:
+    input                output
+    Jennifer             JENNIFER
+
+actual:
+    Enter a name no more than 20 characters :
+    Jennifer
+    Convert to uppercase : JENNIFER
+    Process finished with exit code 0
+
+
+case 2
+
+expect:
+    input                output
+    Joe,SmitH            JOE,SMITH
+
+actual:
+    Enter a name no more than 20 characters :
+    Joe,SmitH
+    Convert to uppercase : JOE,SMITH
+    Process finished with exit code 0
+
+case 3
+
+expect:
+    input                                      output
+    HAha,sadjSADASDsjdklasjdksa            error code 1
+
+actual:
+    Enter a name no more than 20 characters :
+    HAha,sadjSADASDsjdklasjdksa
+    input over size , which have length over : 20
+    Process finished with exit code 1
+
+
+case 4
+
+expect:
+    input                                      output
+    akide,liu                           AKIDE,LIU
+
+actual:
+    Enter a name no more than 20 characters :
+    akide,liu
+    Convert to uppercase : AKIDE,LIU
+    Process finished with exit code 0

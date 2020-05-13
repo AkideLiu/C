@@ -1,0 +1,70 @@
+case 1
+
+expect:
+    input        maximum  minimum  average
+    10 11 12     12       10       11
+
+actual:
+    Enter a integer as age (positive and under 151) : 10
+    Enter next integer : 11
+    Enter next integer : 12
+    Enter next integer : -1
+    According to your signal, input request determined, result shows below:
+    Based on your input, maximum is 12, minimum is 10, average is 11.0
+    Process finished with exit code 0
+
+case 2
+
+expect:
+    input        maximum  minimum  average
+    1 2 3 4      4        1        2.5
+
+actual:
+    Enter a integer as age (positive and under 151) : 1
+    Enter next integer : 2
+    Enter next integer : 3
+    Enter next integer : 4
+    Enter next integer : -1
+    According to your signal, input request determined, result shows below:
+    Based on your input, maximum is 4, minimum is 1, average is 2.5
+    Process finished with exit code 0
+
+case 3
+
+expect:
+    input                 maximum  minimum  average
+    1 2 3 4 5 6 7 8 9 10    10        1       5.5
+
+actual:
+    Enter a integer as age (positive and under 151) : 1
+    Enter next integer : 2
+    Enter next integer : 3
+    Enter next integer : 4
+    Enter next integer : 5
+    Enter next integer : 6
+    Enter next integer : 7
+    Enter next integer : 8
+    Enter next integer : 9
+    Enter next integer : 10
+    You have already input 10 ages ... reach the limitation ... result shows below:
+    Based on your input, maximum is 10, minimum is 1, average is 5.5
+    Process finished with exit code 0
+
+
+case 4
+
+expect:
+    input                 maximum  minimum  average
+    5 9 -7 -2 4             9       4          6
+
+actual:
+    Enter a integer as age (positive and under 151) : 5
+    Enter next integer : 9
+    Enter next integer : -7
+    Error input , Enter a integer as age (positive and under 151): -2
+    Error input , Enter a integer as age (positive and under 151): 4
+    Enter next integer : -1
+    According to your signal, input request determined, result shows below:
+    Based on your input, maximum is 9, minimum is 4, average is 6.0
+    Process finished with exit code 0
+
