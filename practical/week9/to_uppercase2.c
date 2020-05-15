@@ -59,7 +59,7 @@ void inputValidation(const char string1[20], const char string2[20]){
         }
 
         for (int i = 0; string2[i] != '\0' ; ++i) {
-            array_len1 = i;
+            array_len2 = i;
         }
 
         //+1 due to index starts at 0
