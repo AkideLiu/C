@@ -96,7 +96,7 @@ int main(){
     for (int i = 0; errorString[i] !='\0' ; ++i) {
         if (errorString[i] != '\0'){
             printf("Error, your input contains UPPER case latter --> %s",errorString);
-            exit(1);
+            exit(2);
         }
     }
     //call inputValidation
