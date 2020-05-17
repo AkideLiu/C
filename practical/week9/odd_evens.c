@@ -7,17 +7,18 @@
 //
 
 #include <stdio.h>
+#include <stdlib.h>
 
 int main(){
 
     //declaration of integer arrays
-    // int odds_evens[12] = {11, 3, 9, 7, 6, 10, 13, 17, 2, 8, 3 };
-    // int odds_evens[12] = {11, 13, 19, 17, 16, 10, 13, 17, 12, 18, 13 };
-    int odds_evens[12] = {21, 23, 29, 27, 26, 20, 23, 27, 22, 28, 23 };
+    // int odds_evens[13] = {11, 3, 9, 7, 6, 10, 13, 17, 2, 8, 3 };
+    // int odds_evens[13] = {11, 13, 19, 17, 16, 10, 13, 17, 12, 18, 13 };
+    int odds_evens[13] = {21, 23, 29, 27, 0, 20, 23, 27, 22, 28, 23 };
 
-    int evens[12] = {};
+    int evens[13] = {};
 
-    int odds[12] = {};
+    int odds[13] = {};
 
     //declaration of index of evens and odds array
 
@@ -25,7 +26,7 @@ int main(){
 
     //use iteration to classify even and odd, then put every elements into corresponding array
 
-    for (int i = 0; odds_evens[i] != '\0' ; ++i) {
+    for (int i = 0; (odds_evens[i] != '\0' || odds_evens[i+1] != '\0') ; ++i) {
 
         //if elements can be divide by to 2 with remainder 0 -- > even
         //otherwise  --> odd
@@ -52,21 +53,21 @@ int main(){
     //display output
     printf("original array contains : ");
 
-    for (int j = 0; odds_evens[j] != '\0' ; ++j) {
+    for (int j = 0; (odds_evens[j] != '\0' || odds_evens[j+1] != '\0'); ++j) {
         printf("%d ", odds_evens[j]);
     }
 
     //display output
     printf("\nEvens array contains : ");
 
-    for (int j = 0; evens[j] != '\0' ; ++j) {
+    for (int j = 0; (evens[j] != '\0' || evens[j + 1] != '\0') ; ++j) {
         printf("%d ", evens[j]);
     }
 
     //display output
     printf("\nOdds array contains : ");
 
-    for (int j = 0; odds[j] != '\0' ; ++j) {
+    for (int j = 0; (odds[j] != '\0' || odds[j + 1] != '\0' ); ++j) {
         printf("%d ", odds[j]);
     }
 
