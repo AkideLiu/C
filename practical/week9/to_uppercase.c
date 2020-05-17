@@ -79,6 +79,7 @@ int main(){
     //variable declaration
     char string1[20] = {};
     char string2[20] = {};
+    char errorString[20] = {};
 
     //-------------input part -------------
 
@@ -86,12 +87,18 @@ int main(){
 
     //ref : https://en.cppreference.com/w/c/io/fscanf
     scanf("%20[a-z],%20[a-z]", string1, string2);
-
+    scanf("%20[A-Z]",errorString);
     //clear input buffer
     scanf("%*[^\n]"); scanf("%*c");
 
     //-------------progress part -------------
 
+    for (int i = 0; errorString[i] !='\0' ; ++i) {
+        if (errorString[i] != '\0'){
+            printf("Error, your input contains UPPER case latter --> %s",errorString);
+            exit(1);
+        }
+    }
     //call inputValidation
     inputValidation(string1,string2);
 
