@@ -51,8 +51,15 @@ set(CMAKE_C_STANDARD 99)
 #add_executable(to_uppercase2 practical/week9/to_uppercase2.c)
 #add_executable(reverse_in_place practical/week9/reverse_in_place.c)
 
+#workshop week 10
 
-add_executable(q1_read_cat workshop/week10/q1_read_cat.c)
-add_executable(q2_read_cat_repeat workshop/week10/q2_read_cat_repeat.c)
-add_executable(q3_digest workshop/week10/q3_digest.c)
-add_executable(q4_digest_back workshop/week10/q4_digest_back.c)
+#add_executable(q1_read_cat workshop/week10/q1_read_cat.c)
+#add_executable(q2_read_cat_repeat workshop/week10/q2_read_cat_repeat.c)
+#add_executable(q3_digest workshop/week10/q3_digest.c)
+#add_executable(q4_digest_back workshop/week10/q4_digest_back.c)
+
+#practical week 10
+
+add_executable(temperatures01 practical/week10/temperatures01.c)
+add_executable(odds_evens01 practical/week10/odds_evens01.c)
+add_executable(temperatures02 practical/week10/temperatures02.c)
