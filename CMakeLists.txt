@@ -45,8 +45,14 @@ set(CMAKE_C_STANDARD 99)
 
 #practical week 9
 
-add_executable(odd_evens practical/week9/odd_evens.c)
-add_executable(process_ages practical/week9/process_ages.c)
-add_executable(to_uppercase practical/week9/to_uppercase.c)
-add_executable(to_uppercase2 practical/week9/to_uppercase2.c)
-add_executable(reverse_in_place practical/week9/reverse_in_place.c)
+#add_executable(odd_evens practical/week9/odd_evens.c)
+#add_executable(process_ages practical/week9/process_ages.c)
+#add_executable(to_uppercase practical/week9/to_uppercase.c)
+#add_executable(to_uppercase2 practical/week9/to_uppercase2.c)
+#add_executable(reverse_in_place practical/week9/reverse_in_place.c)
+
+
+add_executable(q1_read_cat workshop/week10/q1_read_cat.c)
+add_executable(q2_read_cat_repeat workshop/week10/q2_read_cat_repeat.c)
+add_executable(q3_digest workshop/week10/q3_digest.c)
+add_executable(q4_digest_back workshop/week10/q4_digest_back.c)
