@@ -67,7 +67,11 @@ add_definitions(-Wall)
 
 #mastery quiz week 10
 
-add_executable(q3 "Mastery Quiz /week10/q3.c")
-add_executable(q4 "Mastery Quiz /week10/q4.c")
+add_executable(q3 "workshop/week 11/q3.c")
+add_executable(q4 "workshop/week 11/q4.c")
 add_executable(q6 "Mastery Quiz /week10/q6.c")
 add_executable(q5 "Mastery Quiz /week10/q5.c")
+
+#workshop week 11
+add_executable(q1 "workshop/week 11/q1.c")
+add_executable(q2 "workshop/week 11/q2.c")
