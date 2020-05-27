@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.10)
 project(C C)
 
 set(CMAKE_C_STANDARD 99)
+add_definitions(-Wall)
 
 #add_executable(C main.c)
 
@@ -60,6 +61,13 @@ set(CMAKE_C_STANDARD 99)
 
 #practical week 10
 
-add_executable(temperatures01 practical/week10/temperatures01.c)
-add_executable(odds_evens01 practical/week10/odds_evens01.c)
-add_executable(temperatures02 practical/week10/temperatures02.c)
+#add_executable(temperatures01 practical/week10/temperatures01.c)
+#add_executable(odds_evens01 practical/week10/odds_evens01.c)
+#add_executable(temperatures02 practical/week10/temperatures02.c)
+
+#mastery quiz week 10
+
+add_executable(q3 "Mastery Quiz /week10/q3.c")
+add_executable(q4 "Mastery Quiz /week10/q4.c")
+add_executable(q6 "Mastery Quiz /week10/q6.c")
+add_executable(q5 "Mastery Quiz /week10/q5.c")
