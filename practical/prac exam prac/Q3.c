@@ -10,6 +10,9 @@
 
 int values_under_100(const int *array, int size , int **final_array){
 
+    //pointers to pointers
+    //https://cdn.jsdelivr.net/gh/AkideLiu/image@master/uPic/image-20200529KrAdJt.jpg
+
     int count = 0;
     for (int i = 0; i < size; ++i) {
         (array[i] < 100) ? count += 1 : 0 ;
