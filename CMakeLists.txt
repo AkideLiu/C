@@ -89,6 +89,18 @@ add_definitions(-Wall)
 #add_executable(Q3 workshop/week12/Q3.c)
 
 #Prac Exam
-add_executable(Q1 "practical/Prac Exam/q1.c")
-add_executable(q2 "practical/Prac Exam/q2.c")
-add_executable(q3 "practical/Prac Exam/q3.c")
+#add_executable(Q1 "practical/Prac Exam/q1.c")
+#add_executable(q2 "practical/Prac Exam/q2.c")
+#add_executable(q3 "practical/Prac Exam/q3.c")
+
+#mastery quiz week 12
+
+#add_executable(q2 "Mastery Quiz /week12/q2.c")
+#add_executable(q3 "Mastery Quiz /week12/q3.c")
+
+#Final Exam prepare
+add_executable(Q1 "practical/Final Exam prepare/C/Q1.c")
+add_executable(Q2 "practical/Final Exam prepare/C/Q2.c")
+add_executable(Q3 "practical/Final Exam prepare/C/Q3.c")
+add_executable(Q4 "practical/Final Exam prepare/C/Q4.c")
+add_executable(Q5 "practical/Final Exam prepare/C/Q5.c")

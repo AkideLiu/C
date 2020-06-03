@@ -1,0 +1,18 @@
+Q1
+    numbers1    stack  contiguous
+    numbers2    heap contiguous
+    numbers3    heap non-contiguous
+
+Q2
+All three are types that could be used to represent a two dimensional array.
+
+
+Q3
+numbers1[2][3] = 5;
+
+numbers2[2*4 + 3] = 5;
+
+numbers3[2][3] = 5;
+
+Q4
+none
