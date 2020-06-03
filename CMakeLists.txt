@@ -77,6 +77,18 @@ add_definitions(-Wall)
 #add_executable(q2 "workshop/week 11/q2.c")
 
 #prac exam prac
-add_executable(Q1 "practical/prac exam prac/Q1.c")
-add_executable(Q2 "practical/prac exam prac/Q2.c")
-add_executable(Q3 "practical/prac exam prac/Q3.c")
+#add_executable(Q1 "practical/prac exam prac/Q1.c")
+#add_executable(Q2 "practical/prac exam prac/Q2.c")
+#add_executable(Q3 "practical/prac exam prac/Q3.c")
+#add_executable(test1 "Mastery Quiz /week11/test1.c")
+
+#workshop 12
+
+#add_executable(Q1 workshop/week12/Q1.c)
+#add_executable(Q2 workshop/week12/Q2.c)
+#add_executable(Q3 workshop/week12/Q3.c)
+
+#Prac Exam
+add_executable(Q1 "practical/Prac Exam/q1.c")
+add_executable(q2 "practical/Prac Exam/q2.c")
+add_executable(q3 "practical/Prac Exam/q3.c")
